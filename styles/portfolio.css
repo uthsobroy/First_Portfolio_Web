@@ -32,9 +32,9 @@
 }
 
 .section_title {
-     font-size: 35px;
-     font-weight: bold;
-     color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
 }
 
 .section_description {
@@ -87,6 +87,7 @@ nav li a {
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
+
 .banner_content {
     max-width: 580px;
 }
@@ -121,10 +122,12 @@ main section {
     padding: 130px 150px;
     text-align: center;
 }
+
 .about_items {
     display: flex;
     justify-content: space-around;
 }
+
 .item_description {
     font-weight: 600;
 }
@@ -140,4 +143,53 @@ main section {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Section Resume */
+.resume_container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience_description,
+.experience_sub_title {
+    color: rgb(117, 117, 117);
+}
+
+.experience_sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume hr {
+    margin: 30px 0;
+}
+
+.resume_download_cv {
+    margin-top: 50px;
+}
+
+/* Footer Sec. */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer_column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
